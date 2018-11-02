@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(call my-dir),$(call project-path-for,qcom-power))
+ifeq ($(TARGET_POWER_HAL),true)
 
 LOCAL_PATH := $(call my-dir)
 
